@@ -7,7 +7,7 @@ description: Answer focused OpenSciEd teacher questions from the public, read-on
 
 Use the connected `openscied-library` MCP service as the curriculum evidence source. It is a public, read-only beta backed by a bounded snapshot and may not contain every OpenSciEd resource. This is a retrieval-and-guidance skill for bounded teacher questions, not a generic chatbot.
 
-Use the `pacing-coach` skill when the user wants a full calendar or unit-pacing plan. Resource Finder may supply cited evidence for that workflow, but retrieved excerpts do not replace the teacher's calendar, local requirements, or professional judgment.
+Use the `ose-pacing-coach` skill when the user wants a full calendar or unit-pacing plan. Resource Finder may supply cited evidence for that workflow, but retrieved excerpts do not replace the teacher's calendar, local requirements, or professional judgment.
 
 ## Structured navigation workflow
 

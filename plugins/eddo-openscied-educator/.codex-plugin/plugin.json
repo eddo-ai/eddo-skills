@@ -20,7 +20,7 @@
   "interface": {
     "displayName": "OpenSciEd Educator",
     "shortDescription": "Plan pacing and find cited curriculum evidence.",
-    "longDescription": "A public educator role combining Val's four-phase Pacing Coach with Eddo's bounded, read-only OpenSciEd Resource Finder.",
+    "longDescription": "A public educator role combining Val's four-phase OSE Pacing Coach with Eddo's bounded, read-only OpenSciEd Resource Finder.",
     "developerName": "Eddo Learning",
     "category": "Productivity",
     "capabilities": [

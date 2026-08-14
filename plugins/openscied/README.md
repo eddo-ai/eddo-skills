@@ -4,10 +4,10 @@ Status: preserved but not currently available for installation from the `main` m
 
 This previously published beta combined two complementary educator workflows:
 
-- **Pacing Coach:** Val's complete four-phase process for turning a real school calendar into a practical, adaptable OpenSciEd pacing plan.
+- **OSE Pacing Coach:** Val's complete four-phase process for turning a real school calendar into a practical, adaptable OpenSciEd pacing plan.
 - **Resource Finder:** structured grade, unit, lesson, and artifact navigation backed by cited, bounded excerpts from the OpenSciEd curriculum library.
 
-The standalone `pacing-coach` plugin is the current published release.
+The standalone `ose-pacing-coach` plugin is the current published release.
 
 ## Availability
 
@@ -32,7 +32,7 @@ The hosted library is a snapshot and may be incomplete. Resource Finder requires
 
 - "Browse Grade 7 units and help me locate the teacher materials for Unit 2."
 - "Find the relevant Grade 6 Unit 1 lesson evidence for this instructional question and cite it."
-- "Use Pacing Coach to build a year plan, then check the library for cited Unit 1 context."
+- "Use OSE Pacing Coach to build a year plan, then check the library for cited Unit 1 context."
 
 ## Instructional boundaries
 

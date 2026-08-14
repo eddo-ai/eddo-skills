@@ -3,18 +3,18 @@
   "plugins": {
     "eddo-openscied-educator": {
       "skills": [
-        "pacing-coach",
+        "ose-pacing-coach",
         "openscied-resource-finder"
       ]
     },
-    "pacing-coach": {
+    "ose-pacing-coach": {
       "skills": [
-        "pacing-coach"
+        "ose-pacing-coach"
       ]
     },
     "openscied": {
       "skills": [
-        "pacing-coach",
+        "ose-pacing-coach",
         "openscied-resource-finder"
       ]
     }

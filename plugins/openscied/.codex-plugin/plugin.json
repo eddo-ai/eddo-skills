@@ -19,7 +19,7 @@
   "interface": {
     "displayName": "OpenSciEd",
     "shortDescription": "Plan pacing and find cited curriculum evidence.",
-    "longDescription": "OpenSciEd combines Val's full four-phase Pacing Coach with a Resource Finder connected to Eddo's public, read-only OpenSciEd curriculum library.",
+    "longDescription": "OpenSciEd combines Val's full four-phase OSE Pacing Coach with a Resource Finder connected to Eddo's public, read-only OpenSciEd curriculum library.",
     "developerName": "Eddo",
     "category": "Productivity",
     "capabilities": [
