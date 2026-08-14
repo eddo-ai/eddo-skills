@@ -1,9 +1,9 @@
 ---
-name: pacing-coach
+name: ose-pacing-coach
 description: Guide a teacher or instructional leader through Val's four-phase OpenSciEd pacing workshop to create a transparent, adaptable year plan.
 ---
 
-# Pacing Coach
+# OSE Pacing Coach
 
 Use this skill when a teacher, coach, or school leader wants help creating or revising a realistic OpenSciEd pacing plan.
 

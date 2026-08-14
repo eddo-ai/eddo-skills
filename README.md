@@ -8,13 +8,15 @@ In the Codex marketplace UI, add this GitHub source URL:
 
 `https://github.com/eddo-ai/eddo-skills`
 
-Codex will load the repo marketplace from `.agents/plugins/marketplace.json`. Install **OpenSciEd Educator** for the complete public role or **Pacing Coach** for pacing alone.
+Codex will load the repo marketplace from `.agents/plugins/marketplace.json`. Install **OpenSciEd Educator** for the complete public role or **OSE Pacing Coach** for pacing alone.
 
 The equivalent CLI route is:
 
 ```sh
 codex plugin marketplace add https://github.com/eddo-ai/eddo-skills --ref main
 codex plugin add eddo-openscied-educator@eddo-skills
+# Or install pacing alone:
+codex plugin add ose-pacing-coach@eddo-skills
 ```
 
 Start a new task after installation so the skill is available.
@@ -23,20 +25,22 @@ Start a new task after installation so the skill is available.
 
 ### OpenSciEd Educator
 
-OpenSciEd Educator combines Pacing Coach with the public, read-only OpenSciEd Resource Finder. It supports focused teacher requests for exact resources and lessons, remembered activities, materials and lab preparation, summaries, DQB and discussion preparation, differentiation, substitute and first-year support, terminology, assessment and rubric guidance, and faithful student-instruction rewrites.
+OpenSciEd Educator combines OSE Pacing Coach with the public, read-only OpenSciEd Resource Finder. It supports focused teacher requests for exact resources and lessons, remembered activities, materials and lab preparation, summaries, DQB and discussion preparation, differentiation, substitute and first-year support, terminology, assessment and rubric guidance, and faithful student-instruction rewrites.
 
 Curriculum claims require stable archive citations and verified, shareable public OpenSciEd source pages. The skill never exposes private Drive identifiers, local paths, index internals, or other non-public archive inputs.
 
-### Pacing Coach
+### OSE Pacing Coach
 
-Pacing Coach packages Val's complete four-phase OpenSciEd pacing workflow. It helps teachers and instructional leaders:
+OSE Pacing Coach packages Val's complete four-phase OpenSciEd pacing workflow. It helps teachers and instructional leaders:
 
 - Count real instructional days
 - Sketch unit durations from source guidance
 - Map units onto a school calendar
 - Deep-dive Unit 1 while protecting inquiry and sensemaking
 
-The plugin is self-contained and has no MCP or hosted-service dependency. Its complete source lives at `plugins/pacing-coach`.
+The plugin is self-contained and has no MCP or hosted-service dependency. Its complete source lives at `plugins/ose-pacing-coach`.
+
+The previous `pacing-coach` identity is retained as `NOT_AVAILABLE` for release history and existing-install continuity.
 
 ## Legacy OpenSciEd pack
 
